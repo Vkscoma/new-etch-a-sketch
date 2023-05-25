@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('patternpad.svg')
+}
+
+canvas {
+    border: 25px solid red;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 500px;
+    margin: 5rem auto;
+    background-color: #fff;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+button:hover {
+    background-color: #35353b;
+    color: #fff;
+}
